@@ -3,7 +3,6 @@
   background: black;
 }
 
-/* Убедитесь что React компонент занимает всю высоту */
 html, body, #root, .App {
   height: 100%;
   margin: 0;
