@@ -12,7 +12,6 @@
     position: relative;
 }
 
-/* КРИТИЧЕСКИ ВАЖНЫЕ СТИЛИ ДЛЯ ВИДЕО */
 video {
     display: block !important;
     position: absolute !important;
@@ -143,7 +142,6 @@ video {
     100% { transform: rotate(360deg); }
 }
 
-/* Адаптивность */
 @media (max-width: 768px) {
     .glasses-grid {
         padding: 10px;
