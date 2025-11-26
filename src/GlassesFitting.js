@@ -24,7 +24,6 @@ const GlassesFitting = () => {
                     await faceSystem.start();
                     setStarted(true);
 
-                    // Принудительно показываем видео после старта AR
                     setTimeout(() => {
                         const video = document.querySelector('video');
                         if (video) {
